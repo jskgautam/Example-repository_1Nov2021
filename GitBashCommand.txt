@@ -1,0 +1,40 @@
+Git bash command:
+
+
+git config --global user.name "jskgautam"
+git config --global user.name "jsk.gautam@gmail.com"
+
+git config --global --list
+
+git clone https://github.com/jskgautam/Example-repository_1Nov2021.git
+
+
+
+Method 1: To create text file, provide text in the git bash.
+
+echo "contents of the file" >> filename
+cat filename.txt
+(cat filename.txt)
+
+git add filename.txt
+(git status)
+
+git commit -m "make some comment here"
+
+git push origin main
+(git status)
+
+Method 2: To create text file, provide text in the opend text file and proceed.
+
+touch filename.txt
+start filename.txt
+(provide the data to the above file)
+(cat filename.txt)
+
+git add filename.txt
+(git status)
+
+git commit -m "make some comment here"
+
+git push origin main
+(git status)
