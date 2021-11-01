@@ -49,6 +49,7 @@ git push origin main
 note need to provide login name and password.
 
 -- create a text file and open it quickly and add the content of the file in the opened file.
+(https://stackoverflow.com/questions/13888223/command-to-open-file-with-git)
 touch filename
 example-
 step1- create file
