@@ -1,0 +1,71 @@
+https://github.com/jskgautam/Example-repository_1Nov2021.git
+
+github-demo
+
+- provide name and email information of GitHub to Git.
+
+git config --global user.name "jskgautam"
+git config --global user.name "jsk.gautam@gmail.com"
+
+- To check the global information
+git config --global --list
+
+-- Cloning
+git clone https://github.com/jskgautam/Example-repository_1Nov2021.git
+
+-- to check the contents of the current directory
+ls
+
+-- check the status of the repository (it tells the name of the branch- such as main branch- main branch is default branch in github repository)
+step1- go to the directory where gitHb repository is located by cd
+step 2- type on gitbash command
+git status
+
+-- command to clear the bash screen
+clear
+
+-- adding a new file to the repository of the local system
+echo "contents of the file" >> filename
+example:-
+echo "learning to create the text file and add some text to it" >> start.txt
+
+-- To see the contents of text file
+cat filename
+example:- it will display everyting written in the file
+cat start.txt
+
+-- To check the status of the file on github- whether it is commited or not.
+git status
+
+-- add command of git- to add file on the - file is in staging area
+git add start.txt
+
+-- commit- Add the file in the .git folder on the local directory.
+git commit -m "I am trying to add the start.txt file on github"
+
+-- Push- last step to send the file on the Github account online. note: "main" is the name of the branch.
+git push origin main
+
+note need to provide login name and password.
+
+-- create a text file and open it quickly and add the content of the file in the opened file.
+touch filename
+example-
+step1- create file
+touch GitCommand.txt
+step2-
+start GitCommand.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
